@@ -3,7 +3,6 @@
 require __DIR__ . "/vendor/autoload.php";
 
 use Framework\Database;
-use App\Config\Paths;
 use Dotenv\Dotenv;
 
 $dotEnv = Dotenv::createImmutable("./");
